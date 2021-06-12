@@ -1,0 +1,82 @@
+[
+        {
+            "name": "t-shirt",
+            "price": "200",
+            "src": "image_0.png",
+            "article": "125",
+            "color": "green",
+            "id": "0"
+        },
+        {
+            "name": "polo",
+            "price": "100",
+            "src": "image_1.png",
+            "article": "222",
+            "color": "blue",
+            "id": "1"
+        },
+        {
+            "name": "jacket",
+            "price": "500",
+            "src": "image_2.png",
+            "article": "431",
+            "color": "yellow",
+            "id": "2"
+        },
+        {
+            "name": "top",
+            "price": "50",
+            "src": "image_3.png",
+            "article": "457",
+            "color": "black",
+            "id": "3"
+        },
+        {
+            "name": "cap",
+            "price": "199",
+            "src": "image_4.png",
+            "article": "309",
+            "color": "white",
+            "id": "4"
+        },
+        {
+            "name": "jeans",
+            "price": "279",
+            "src": "image_5.png",
+            "article": "789",
+            "color": "neon",
+            "id": "5"
+        },
+        {
+            "name": "belt",
+            "price": "300",
+            "src": "image_6.png",
+            "article": "888",
+            "color": "dark",
+            "id": "6"
+        },
+        {
+            "name": "bag",
+            "price": "349",
+            "src": "image_7.png",
+            "article": "863",
+            "color": "orange",
+            "id": "7"
+        },
+        {
+            "name": "socks",
+            "price": "30",
+            "src": "image.png",
+            "article": "908",
+            "color": "grey",
+            "id": "8"
+        },
+        {
+            "name": "panties",
+            "price": "50",
+            "src": "image1.png",
+            "article": "444",
+            "color": "colored",
+            "id": "9"
+        }
+]

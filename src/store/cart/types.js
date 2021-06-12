@@ -1,0 +1,4 @@
+export const SET_CART = 'SET_CART';
+export const INITIAL_CART_ID = 'INITIAL_CART_ID';
+export const CART_PRODUCT_REMOVE = 'CART_PRODUCT_REMOVE';
+export const BUY_IMITATION = 'BUY_IMITATION';

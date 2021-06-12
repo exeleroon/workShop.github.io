@@ -1,0 +1,252 @@
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 220px);
+  gap: 10px;
+  margin: 10px;
+  justify-content: center;
+}
+.card-container {
+  display: flex;
+  width: 10rem;
+  top: 40px;
+  /* left: 10%; */
+  flex-direction: column;
+  /* min-width: 0; */
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+  flex: 1 1 auto;
+  padding: 1rem 1rem;
+  font-size: 14px;
+}
+
+.card-title {
+  margin: 10px;
+  font-size: 16px;
+}
+
+.list-group-item {
+  position: relative;
+  display: block;
+  padding: 0.1rem 0.5rem;
+  color: #212529;
+  text-decoration: none;
+  background-color: #fff;
+  border: 1px solid rgba(0,0,0,.125);
+}
+
+.card-footer {
+  display: inherit;
+  justify-content: space-between;
+  padding: 0.4rem 0.4rem;
+}
+
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: .125rem .25rem;
+  border-radius: .25rem;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+.mainBtn {
+  /* justify-content: center; */
+  margin: 250px auto;
+  padding: 30px 15px;
+  font-size: 40px;
+  width: 400px;
+  height: 200px;  
+  margin-right: 50px;
+  cursor: pointer;
+}
+
+.btn-container {
+  background-color: rgba(15, 1, 1, 0.637);
+  width: 1200px;
+  height: 900px;
+  vertical-align: middle;
+  display: inline-block;
+  text-align: center;
+}
+
+.modal.show {
+  position: fixed;
+  z-index: 1;
+  display: block;
+  width: 100%;
+  height: 1300px;
+  top: 0%;
+}
+
+.modal {
+  background-color: rgba(0,0,0, .8);
+  opacity: 1;
+}
+
+.modal-dialog {
+  max-width: 520px;
+  margin: 230px auto;
+  position: relative;
+  width: auto;
+  pointer-events: none;
+}
+
+.modal-content {
+  color: white;
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  pointer-events: auto;
+  background-color:rgb(251, 73, 73);
+  background-clip: padding-box;
+  border: 1px solid rgba(0,0,0,.2);
+  border-radius: .3rem;
+  outline: 0;
+}
+.modal-content::after, ::before {
+  box-sizing: border-box;
+}
+
+.modal-body {
+  line-height: 30px;
+  text-align: center;
+  position: relative;
+  flex: 1 1 auto;
+  padding: 1.5rem;
+}
+
+.modal-body::after, ::before {
+  box-sizing: border-box;
+}
+
+.modal-header {
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 0.123);
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 1rem 1rem;
+  border-top-left-radius: calc(.3rem - 1px);
+  border-top-right-radius: calc(.3rem - 1px);
+}
+
+.close-Btn {
+  /* margin-left: 95%; */
+  color: rgb(54, 49, 49);
+  font-size: 25px;
+  border: none;
+  background-color: Transparent;
+  cursor:pointer;
+}
+
+.modalBtn {
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.219);
+  color: white;
+  width: 90px;
+  height: 40px;
+  cursor:pointer;
+}
+
+.star {
+  position: relative;
+  top: -5%;
+  left: 95%;
+  width: 18px;
+  height: 6px;
+  cursor: pointer;
+}
+
+.cart {
+  height: 30px;
+  width: 25px;
+}
+
+.btn-cart {
+  top: 1%;
+  position: absolute;
+  right: 7%;
+}
+
+.cart-counter {
+  position: absolute;
+    right: 0px;
+    top: -23%;
+    z-index: 3;
+    background: inherit;
+    font-size: 14px;
+}
+
+.btn-favorite {
+  top: 10%;
+  position: absolute;
+  right: 6.5%;
+}
+
+.favorite {
+  width: 30px;
+  height: 25px;
+}
+
+.homeIcon {
+  background: violet;
+  position: absolute;
+  top: 3%;
+  left: 1%;
+}
+
+.removeFromCart {
+    top: 1.5%;
+    position: absolute;
+    font-size: 18px;
+    font-weight: bold;
+    color: red;
+    cursor: pointer;
+}
+
+.confirm {
+  background-color: #379e37;
+  border-color: #48c148;
+  align-items: center;
+  justify-content: center;
+  margin-left: 50%;
+  font-size: 18px;
+  width: 90px;
+  height: 35px;
+  border-radius: 10px;
+  width: 119px;
+}
+
+.buyBtn {
+  font-size: 18px;
+  background: greenyellow;
+  padding: 10px;
+  border-radius: 20px;
+}
